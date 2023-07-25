@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>Teens Pray Check-in</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="" />
+    <!-- //Meta tag Keywords -->
+
+    <link href="//fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!--/Style-CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <!--//Style-CSS -->
+
+    <script src="https://kit.fontawesome.com/af562a2a63.js" crossorigin="anonymous"></script>
+
+    <style>
+        .w3l-mockup-form form .button-container {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column; /* Added this line to change the direction of buttons */
+            margin-top: 20px; /* Adjust the value to increase or decrease the spacing */
+        }
+
+        .w3l-mockup-form form .button-container button {
+            margin-bottom: 10px; /* Adjust the value to increase or decrease the spacing */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- form section start -->
+    <section class="w3l-mockup-form">
+        <h1>Teens Pray Check-in</h1>
+        <div class="container">
+            <!-- /form -->
+            <div class="workinghny-form-grid">
+                <div class="main-mockup">
+                    <div class="alert-close">
+                        <span class="fa fa-close"></span>
+                    </div>
+                    <div class="w3l_form align-self">
+                        <div class="left_grid_info">
+                            <img src="images/image.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="content-wthree">
+                        <h2>Check-in</h2>
+                        <p></p>
+                        <form action="#" method="post">
+                            <div class="button-container">
+                                <!-- Add text to the buttons -->
+                                <button class="btn" type="submit"
+                                    onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSfYHcZ6JO3FaAVouDUxopNqBTX8gB9Tml4HZJaWfW2sGoC6uA/viewform'">
+                                    Register </button>
+                                <button class="btn" type="submit"
+                                    onclick="window.location.href='checkin.html'">Check-in </button>
+                            </div>
+                        </form>
+                        <div class="social-icons w3layouts">
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/JEHOTEENS?mibextid=ZbWKwL" class="facebook"><span class="fab fa-facebook"></span> </a>
+                                </li>
+                                <li>
+                                    <a href="https://youtube.com/@JehoshaphatSquad" class="youtube"><span class="fab fa-youtube"></span> </a>
+                                </li>
+                                <li>
+                                    <a href="https://instagram.com/thejehoshaphatsquad?igshid=ZDc4ODBmNjlmNQ==" class="instagram"><span class="fab fa-instagram"></span> </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- //form -->
+        </div>
+        <!-- copyright-->
+        <div class="copyright text-center">
+            <p class="copy-footer-29">© 2023 Teens Pray. All rights reserved | Built by <a
+                    href="https://olabodeolusegun.netlify.app">Olabode Olusegun</a></p>
+        </div>
+        <!-- //copyright-->
+    </section>
+    <!-- //form section start -->
+
+    <script src="js/jquery.min.js"></script>
+    <script>
+        $(document).ready(function (c) {
+            $('.alert-close').on('click', function (c) {
+                $('.main-mockup').fadeOut('slow', function (c) {
+                    $('.main-mockup').remove();
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
